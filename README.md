@@ -1,6 +1,8 @@
 # SplashBuddy Web Template
 A cleanly styled and animated web template for you all to use in SplashBuddy. Feel free to re-brand to match your organisation's branding.
 
+Old repository deleted and this is a new commit of the original code due to losing access to my previous GitHub account.
+
 SplashBuddy is available here!
 https://github.com/Shufflepuck/SplashBuddy
 
@@ -8,14 +10,14 @@ https://github.com/Shufflepuck/SplashBuddy
 https://github.com/ryanslater-uk/SplashBuddyWebTemplate/blob/master/Resources/PublicDemo720.mov
 
 ## Screenshots
-![Initial Shot](https://github.com/ryanslater-uk/SplashBuddyWebTemplate/blob/master/Resources/1.jpeg)
-![Additional Screen](https://github.com/ryanslater-uk/SplashBuddyWebTemplate/blob/master/Resources/2.jpeg)
-![Additional Screen](https://github.com/ryanslater-uk/SplashBuddyWebTemplate/blob/master/Resources/3.jpeg)
-![Additional Screen](https://github.com/ryanslater-uk/SplashBuddyWebTemplate/blob/master/Resources/4.jpeg)
+![Initial Shot](https://github.com/ryanslater-uk/SplashBuddyWebTemplate/blob/main/Resources/1.jpeg)
+![Additional Screen](https://github.com/ryanslater-uk/SplashBuddyWebTemplate/blob/main/Resources/2.jpeg)
+![Additional Screen](https://github.com/ryanslater-uk/SplashBuddyWebTemplate/blob/main/Resources/3.jpeg)
+![Additional Screen](https://github.com/ryanslater-uk/SplashBuddyWebTemplate/blob/main/Resources/4.jpeg)
 
 ### Now with Snake!
-![Additional Screen](https://github.com/ryanslater-uk/SplashBuddyWebTemplate/blob/master/Resources/5.png)
-![Additional Screen](https://github.com/ryanslater-uk/SplashBuddyWebTemplate/blob/master/Resources/6.png)
+![Additional Screen](https://github.com/ryanslater-uk/SplashBuddyWebTemplate/blob/main/Resources/5.png)
+![Additional Screen](https://github.com/ryanslater-uk/SplashBuddyWebTemplate/blob/main/Resources/6.png)
 
 ## Installation
 Choose the version of the Presentation.bundle you prefer in this repository must be copied into /Library/Application\ Support/SplashBuddy/ in order for it to function. Simply use this bundle when you're building your SplashBuddy package and you're good to go.
