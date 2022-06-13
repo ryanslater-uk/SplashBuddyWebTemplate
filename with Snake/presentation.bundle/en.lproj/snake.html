@@ -1,0 +1,60 @@
+<!doctype html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Capital One - Snake</title>
+  <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css"/>
+  <link rel="stylesheet" type="text/css" href="css/animate.css">
+  <link rel="stylesheet" href="snake/css/stylesheet.css">
+  <meta charset="utf-8">
+</head>
+
+<body>
+  <div id="fullpage">
+    <div class="section" id="section0" style="background-image: url(img/sbBG.png)">
+    <div class="container">
+
+        <!-- Game Title and score !-->
+        <header>
+            <h1 class="title animated fadeInUp">Snake</h1>
+            <div class="scores-container animated fadeInUp">
+                <div class="score-container animated fadeInUp"></div>
+                <div class="best-container animated fadeInUp"></div>
+            </div>
+        </header>
+
+        <!-- Snake game canvas -->
+        <canvas class="animated fadeInUp" id="snake-game" width="400" height="350"></canvas>
+
+        <div class="menu">
+            <h3 class="start animated fadeInUp">Press Space to Start</h3>
+        </div>
+        <a href="index.html">
+          <p>Back</p>
+        </a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Snake JQuery -->
+  <script src="snake/js/jquery.min.js"></script>
+
+  <!-- Snake game JS -->
+  <script src="snake/js/snake.js"></script>
+
+  <!-- C1 Template JS -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="js/scrolloverflow.js"></script>
+	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+       			css3: true,
+       			navigation: false,
+       		});
+				});
+		</script>
+</body>

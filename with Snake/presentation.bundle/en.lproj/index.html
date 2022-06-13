@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>SplashBuddy Demo - Mac Deployment</title>
+	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css"/>
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+
+</head>
+
+<body>
+	<div id="fullpage">
+		<div class="section" id="section0" style="background-image: url(img/sbBG.png)">
+			<h1 class="animated fadeInUp">Welcome to <span class="accentTeal">Company Name</span></h1>
+			<p class="animated fadeInUp">Meet your new Mac! Whilst we get you ready to go, let's introduce you to a few things</p>
+			<img src="img/blankMacbook.png" height="270" width="300" class="animated fadeInUp"/>
+		</div>
+
+		<div class="section" id="section1" style="background-image: url(img/sbBGreverse.png)">
+			<h1>G-Suite <span class="accentYellow">Apps</span></h1>
+			<p>We use G-Suite. It provides great features and collaboration options for your Documents, Spreadsheets and Presentations</p>
+			<img id="macbookImage" src="img/gsuite.png" height="100" width="400"/>
+		</div>
+
+		<div class="section" id="section2" style="background-image: url(img/sbBG.png)">
+			<h1>Self <span class="accentPink">Service</span></h1>
+			<p>Self Service is your portal for software installation and updates! Be sure to check in often to keep your Mac healthy and secure</p>
+			<img class="shadow" src="img/selfservice.png" height="250" width="400" />
+		</div>
+
+		<div class="section" id="section3" style="background-image: url(img/sbBGreverse.png)">
+			<h1>More <span class="accentTeal">Panes</span></h1>
+			<p>Edit the index.html file to add as many sliders as you want about whatever you like. This was just a demo! Be sure to reach out to me in Slack + on GitHub if you need a hand.</p>
+		</div>
+
+		<div class="section" id="section4" style="background-image: url(img/sbBG.png)">
+			<h1>Game <span class="accentYellow">On</span></h1>
+			<p>Retro games are cool. Remember Snake? Click below to play.</p>
+			<a href="snake.html">
+				<img src="img/playicon.png" height="100" width="100"/>
+			</a>
+		</div>
+
+
+	</div>
+<!-- END PAGE CONTENT MARKUP -->
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="js/scrolloverflow.js"></script>
+	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+       			css3: true,
+       			navigation: true,
+            navigationPosition: 'right',
+            scrollingSpeed: 700,
+            loopBottom: true,
+            keyboardScrolling: true,
+
+						<!-- JavaScript Function to move down sections in millisecond intervals -->
+						afterRender: function(){
+							setInterval(function(){
+								$.fn.fullpage.moveSectionDown();
+							}, 9000);
+						}
+						<!-- End AutoScroll function -->
+
+       		});
+				});
+		</script>
+</body>
+</html>

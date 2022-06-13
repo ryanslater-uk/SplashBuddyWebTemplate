@@ -1,0 +1,1 @@
+Resize your browser window when you're testing outside of the SplashBuddy App. The background image has only been set to a fixed size at this point as the SplashBuddy app remains a fixed resolution.

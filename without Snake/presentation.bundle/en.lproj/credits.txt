@@ -1,0 +1,12 @@
+TECHNICAL CREDITS
+
+fullPage.js, written by Alvaro Trigo - Open Source license, GNU GPL v3 https://www.gnu.org/licenses/gpl-3.0.html
+https://alvarotrigo.com/fullPage/
+Used for sliding page jQuery functionality, main template.
+
+Animate.css, written by Daniel Eden - licensed under the MIT license. (http://opensource.org/licenses/MIT)
+https://daneden.github.io/animate.css/
+Used for text animations
+
+Framework customised and shared with the SplashBuddy Community by Ryan Slater
+https://ryanslater.co.uk
